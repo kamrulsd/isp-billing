@@ -1,0 +1,19 @@
+# Django Settings
+SECRET_KEY=your-secret-key-here
+DEBUG=True
+DATABASE_URL=postgres://username:password@host:port/database_name
+
+# Django Host Settings
+DJANGO_ALLOWED_HOSTS=localhost,127.0.0.1,0.0.0.0
+DJANGO_CSRF_TRUSTED_ORIGINS=http://localhost,http://127.0.0.1,http://localhost:3000,http://127.0.0.1:3000,http://localhost:80,http://127.0.0.1:80
+
+# CORS Settings
+CORS_ALLOWED_ORIGINS=http://localhost,http://127.0.0.1,http://localhost:3000,http://127.0.0.1:3000,http://localhost:80,http://127.0.0.1:80
+
+# MikroTik Settings
+MIKROTIK_URL=http://your-mikrotik-ip
+MIKROTIK_USER=your-username
+MIKROTIK_PASS=your-password
+
+# Frontend Settings
+NEXT_PUBLIC_API_URL=http://localhost/api/v1
